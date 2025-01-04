@@ -35,7 +35,7 @@ public class MainApp {
       List<User> userCar  = userService.getUserCar("Audy",8);
       for (User use : userCar){
          System.out.println("First Name = "+use.getFirstName());
-         System.out.println();
+         System.out.println();}
 
       List<User> users = userService.listUsers();
       for (User user : users) {
@@ -44,9 +44,9 @@ public class MainApp {
          System.out.println("Last Name = "+user.getLastName());
          System.out.println("Email = "+user.getEmail());
          System.out.println("Car = "+ user.getCarToSring());
-         System.out.println();
+         System.out.println();}
 
 
       context.close();
    }
-}}}
+}
